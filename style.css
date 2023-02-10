@@ -68,13 +68,13 @@ html {
     width: 300px;
     border-radius: 35%;
 }
-.masters_left img {
-    width: 300px;
-    border-radius: 35%
-}
 .masters_left p {
     max-width: 300px;
     max-height: 100px;
     text-align: center;
     margin-left: 100px;
+}
+.masters_right img {
+    width: 300px;
+    border-radius: 35%
 }
