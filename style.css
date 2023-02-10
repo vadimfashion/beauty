@@ -21,8 +21,7 @@ html {
 
 }
 .header__img img{
-    width: 130px;
-    border-radius: 100%;
+    width: 80px;
     margin-left: 100px;
 }
 .header__list ul{
@@ -43,7 +42,7 @@ html {
 }
 .zagolovok {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
     font-size: 25px;
     color: white;
     font-family: 'Monoton';
@@ -58,17 +57,24 @@ html {
     border: 100px;
     border-radius: 100px;
 }
-.masters {
+.masters_left {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 50px;
+    color: white;
 }
-.ulia img {
+.masters_left img {
+    width: 300px;
+    border-radius: 35%;
+}
+.masters_left img {
     width: 300px;
     border-radius: 35%
 }
-.lena img {
-    width: 300px;
-    border-radius: 35%
+.masters_left p {
+    max-width: 300px;
+    max-height: 100px;
+    text-align: center;
+    margin-left: 100px;
 }
