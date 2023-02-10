@@ -1,0 +1,74 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+* {
+    box-sizing: border-box;
+    
+}
+html {
+    background-image: url(/image/a5265c26-beauty-fashion.webp);
+
+}
+.header { 
+    margin: 0 auto;
+    width: 1600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #004356;
+    opacity: 90%;
+    align-items: center;
+    border-radius: 25px;
+
+}
+.header__img img{
+    width: 130px;
+    border-radius: 100%;
+    margin-left: 100px;
+}
+.header__list ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.header__list a{
+    font-family: 'Poiret One';
+    font-size: 25px;
+    margin-right: 100px;
+    color: white;
+    text-decoration: none;
+}
+.header > * {
+    min-width: 200px;
+}
+.zagolovok {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Monoton';
+    opacity: 90%;
+}
+.zagolovok a:hover {
+    color:#ff7171;
+}
+.zagolovok a {
+    text-decoration: none;
+    color: white;
+    border: 100px;
+    border-radius: 100px;
+}
+.masters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.ulia img {
+    width: 300px;
+    border-radius: 35%
+}
+.lena img {
+    width: 300px;
+    border-radius: 35%
+}
