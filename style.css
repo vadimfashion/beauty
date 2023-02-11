@@ -1,5 +1,8 @@
   @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
   @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
 * {
     box-sizing: border-box;
     
@@ -60,21 +63,55 @@ html {
 .masters_left {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 50px;
+    justify-content: start;
+    margin-top: 20px;
     color: white;
+    padding-left: 5%;
+  
 }
-.masters_left img {
-    width: 300px;
-    border-radius: 35%;
+.masters_left_img img{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;    
+    border: 10px solid rgb(65, 9, 9);
+    animation: ulia 5s infinite alternate;
+    
+}
+
+   /*Анимация фото начало*/
+
+   @keyframes ulia {
+    
+    0% {
+      border-radius: 50% 50% 56% 44% / 46% 49% 51% 54%;
+    }
+  
+    30% {
+      border-radius: 64% 36% 27% 73% / 64% 38% 62% 36%;
+    }
+  
+    60% {
+      border-radius: 53% 47% 61% 39% / 34% 77% 23% 66%;
+    }
+  
+    100% {
+        border-radius: 64% 36% 27% 73% / 64% 38% 62% 36%;
+    }
+  }
+    /*Анимация фото начало*/
+.line img {
+    height: 100%;
+    position: fixed;
+    opacity: 50%;
 }
 .masters_left p {
+    display: flex;
+    flex-wrap: wrap;
     max-width: 300px;
-    max-height: 100px;
-    text-align: center;
-    margin-left: 100px;
+    text-align: right;
+    padding-top: 20%;
+    font-family: 'Alumni Sans Pinstripe', bold;
+    word-spacing: 4px;
+    font-size: 20px
 }
-.masters_right img {
-    width: 300px;
-    border-radius: 35%
-}
+
