@@ -46,6 +46,8 @@ html {
     color: white;
     font-family: 'Monoton';
     opacity: 90%;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .zagolovok a:hover {
@@ -69,7 +71,7 @@ html {
     flex-wrap: wrap;
     max-width: 300px;    
     border: 10px solid rgb(0, 67, 86);
-    animation: ulia 5s infinite alternate;
+    animation: ulia 20s infinite alternate;
     margin-left: 50px;
 }
    /*Анимация фото начало*/
@@ -90,10 +92,9 @@ html {
   }
     /*Анимация фото начало*/
 .line img {
-    height: 50%;
     display: flex;
-    height: 500px;
-    width: 150px;
+    height: 100%;
+    width: 40px;
 }
 .masters_left p {
     display: flex;
@@ -104,5 +105,50 @@ html {
     word-spacing: 10px;
     font-size: 25px;
     margin-left: 10%;
+    margin-right: 10%;
 }
 
+.masters_right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-top: 20px;
+    color: white;
+}
+.masters_right_img img{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;    
+    border: 10px solid rgb(0, 67, 86);
+    animation: lena 20s infinite alternate;
+    margin-right: 50px;
+}
+   /*Анимация фото начало*/
+   @keyframes lena {
+    
+    0% {
+      border-radius: 53% 47% 61% 39% / 34% 77% 23% 66%;
+    }
+    30% {
+      border-radius: 50% 50% 56% 44% / 46% 49% 51% 54%;
+    }
+    60% {
+      border-radius: 64% 36% 27% 73% / 64% 38% 62% 36%;
+    }
+    100% {
+        border-radius: 50% 50% 56% 44% / 46% 49% 51% 54%;
+    }
+  }
+    /*Анимация фото начало*/
+.masters_right p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    max-width: 400px;
+    text-align: left;
+    font-family: 'Alumni Sans Pinstripe', bold;
+    word-spacing: 10px;
+    font-size: 25px;
+    margin-left: 8%;
+    margin-right: 10%;
+}
