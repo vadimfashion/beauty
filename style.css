@@ -18,13 +18,13 @@
               rgba(255,53,127,1) 100%
         );  
         animation: animation_bg 20s ease infinite;
-      }
+}
       /* Анимация фона начало */
       @keyframes animation_bg { 
         0%{background-position:0% 50%}
         50%{background-position:100% 50%}
         100%{background-position:0% 50%}
-      }
+}
         /* Анимация фона конец */
 .header { 
     margin: 0 auto;
@@ -36,7 +36,6 @@
     opacity: 50%;
     align-items: center;
     border-radius: 25px;
-
 }
 .header__img img{
     width: 80px;
@@ -46,7 +45,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
 }
 .header__list a{
     font-family: 'Poiret One';
@@ -54,9 +52,6 @@
     margin-right: 100px;
     color: white;
     text-decoration: none;
-}
-.header > * {
-    min-width: 200px;
 }
 .zagolovok {
     text-align: center;
@@ -81,8 +76,6 @@
     justify-content: start;
     margin-top: 20px;
     color: white;
-    
-  
 }
 .masters_left_img img{
     display: flex;
@@ -106,10 +99,8 @@
     100% {
         border-radius: 64% 36% 27% 73% / 64% 38% 62% 36%;
     }
-  }
+}
     /*Анимация фото начало*/
-
-
 .line img {
     height: 50%;
     position: fixed;
