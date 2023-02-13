@@ -4,11 +4,18 @@
   
   @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
 
-  html {
+html {
         box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+        background-color: black;
+}
+body {
+    background-color: #202020;
 }
 .header { 
-    margin: 0 auto;
     width: 1600px;
     display: flex;
     flex-wrap: wrap;
@@ -17,6 +24,7 @@
     opacity: 50%;
     align-items: center;
     border-radius: 25px;
+
 }
 .header__img img{
     width: 80px;
@@ -26,6 +34,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
 }
 .header__list a{
     font-family: 'Poiret One';
@@ -33,6 +42,9 @@
     margin-right: 100px;
     color: white;
     text-decoration: none;
+}
+.header > * {
+    min-width: 200px;
 }
 .zagolovok {
     text-align: center;
@@ -57,6 +69,8 @@
     justify-content: start;
     margin-top: 20px;
     color: white;
+    
+  
 }
 .masters_left_img img{
     display: flex;
@@ -80,12 +94,15 @@
     100% {
         border-radius: 64% 36% 27% 73% / 64% 38% 62% 36%;
     }
-}
+  }
     /*Анимация фото начало*/
+
+
 .line img {
     height: 50%;
     position: fixed;
     padding-left: 0.5%;
+    justify-content: center;
 }
 .masters_left p {
     display: flex;
