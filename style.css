@@ -46,6 +46,7 @@ html {
     color: white;
     font-family: 'Monoton';
     opacity: 90%;
+    justify-content: center;
 }
 .zagolovok a:hover {
     color:#ff7171;
