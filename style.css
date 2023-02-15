@@ -11,7 +11,15 @@ html {
     width: 1600px;
     background-color: rgb(1, 12, 19);
 }
-.header { 
+body{
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+span {
+  color: brown;
+}
+.header {
     width: 1400px;
     display: flex;
     flex-wrap: wrap;
@@ -65,14 +73,15 @@ html {
     justify-content: start;
     margin-top: 20px;
     color: white;
+    padding-left: 50px;
 }
 .masters_left_img img{
     display: flex;
     flex-wrap: wrap;
-    max-width: 300px;    
-    border: 10px solid rgb(0, 67, 86);
+    max-width: 350px;    
+    border: 5px solid rgb(0, 67, 86);
     animation: ulia 20s infinite alternate;
-    margin-left: 50px;
+    
 }
    /*Анимация фото начало*/
    @keyframes ulia {
@@ -99,12 +108,12 @@ html {
 .masters_left p {
     display: flex;
     flex-wrap: wrap;
-    max-width: 400px;
+    max-width: 300px;
     text-align: right;
     font-family: 'Alumni Sans Pinstripe', bold;
-    word-spacing: 10px;
+    word-spacing: 7px;
     font-size: 25px;
-    margin-left: 10%;
+    margin-left: 2%;
     margin-right: 10%;
 }
 
@@ -114,14 +123,14 @@ html {
     justify-content: start;
     margin-top: 20px;
     color: white;
+    padding-right: 50px;
 }
 .masters_right_img img{
     display: flex;
     flex-wrap: wrap;
-    max-width: 300px;    
-    border: 10px solid rgb(0, 67, 86);
+    max-width: 350px;    
+    border: 5px solid rgb(0, 67, 86);
     animation: lena 20s infinite alternate;
-    margin-right: 50px;
 }
    /*Анимация фото начало*/
    @keyframes lena {
@@ -143,12 +152,22 @@ html {
 .masters_right p {
     display: flex;
     flex-wrap: wrap;
-    justify-content: start;
-    max-width: 400px;
+    max-width: 300px;
     text-align: left;
     font-family: 'Alumni Sans Pinstripe', bold;
-    word-spacing: 10px;
+    word-spacing: 8px;
     font-size: 25px;
     margin-left: 8%;
-    margin-right: 10%;
+    margin-right: 2%;
+}
+.footer {
+  color: white;
+  opacity: 15%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-family: 'Poiret One';
+  word-spacing: 15px;
+  min-height:30px;
+ 
 }
