@@ -100,21 +100,27 @@ span {
     }
   }
     /*Анимация фото начало*/
-.line img {
-    display: flex;
-    height: 100%;
-    width: 40px;
+.line {
+    height: 450px;
+    border-left: 5px solid rgb(0, 67, 86);
+    position: fixed;
+    left: 50%;
+    top: 150px;
+    opacity: 50%;
+    filter: blur(6px);
 }
+
+
 .masters_left p {
     display: flex;
     flex-wrap: wrap;
-    max-width: 300px;
+    max-width: 350px;
     text-align: right;
     font-family: 'Alumni Sans Pinstripe', bold;
     word-spacing: 7px;
     font-size: 25px;
-    margin-left: 2%;
-    margin-right: 10%;
+    padding-left: 2%;
+    margin-right: 5%;
 }
 
 .masters_right {
@@ -123,7 +129,6 @@ span {
     justify-content: start;
     margin-top: 20px;
     color: white;
-    padding-right: 50px;
 }
 .masters_right_img img{
     display: flex;
@@ -149,6 +154,11 @@ span {
     }
   }
     /*Анимация фото начало*/
+
+    
+.masters_right_img:last-child {
+  margin-left: 6%;
+}
 .masters_right p {
     display: flex;
     flex-wrap: wrap;
@@ -157,7 +167,7 @@ span {
     font-family: 'Alumni Sans Pinstripe', bold;
     word-spacing: 8px;
     font-size: 25px;
-    margin-left: 8%;
+    margin-left: 5%;
     margin-right: 2%;
 }
 .footer {
