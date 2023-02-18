@@ -103,7 +103,6 @@ span {
 .line {
     height: 450px;
     border-left: 2px solid rgb(0, 67, 86);
-    position: fixed;
     left: 50%;
     top: 150px;
     opacity: 50%;
